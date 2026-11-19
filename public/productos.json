@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "The Legend of Zelda: Tears of the Kingdom",
+    "categoria": "juego",
+    "plataforma": "Nintendo Switch",
+    "precio": 269900,
+    "imagen": "/img/juego-01.svg",
+    "descripcion": "Aventura de mundo abierto en Hyrule y los cielos."
+  },
+  {
+    "id": 2,
+    "nombre": "EA Sports FC 25",
+    "categoria": "juego",
+    "plataforma": "PlayStation 5",
+    "precio": 229900,
+    "imagen": "/img/juego-02.svg",
+    "descripcion": "Simulador de fútbol con equipos y ligas oficiales."
+  },
+  {
+    "id": 3,
+    "nombre": "Elden Ring",
+    "categoria": "juego",
+    "plataforma": "Xbox Series X",
+    "precio": 199900,
+    "imagen": "/img/juego-03.svg",
+    "descripcion": "RPG de acción en un vasto mundo abierto."
+  },
+  {
+    "id": 4,
+    "nombre": "Hollow Knight",
+    "categoria": "juego",
+    "plataforma": "PC",
+    "precio": 59900,
+    "imagen": "/img/juego-04.svg",
+    "descripcion": "Metroidvania de exploración en un reino subterráneo."
+  },
+  {
+    "id": 5,
+    "nombre": "Mario Kart 8 Deluxe",
+    "categoria": "juego",
+    "plataforma": "Nintendo Switch",
+    "precio": 249900,
+    "imagen": "/img/juego-05.svg",
+    "descripcion": "Carreras de karts con personajes de Nintendo."
+  },
+  {
+    "id": 6,
+    "nombre": "God of War Ragnarök",
+    "categoria": "juego",
+    "plataforma": "PlayStation 5",
+    "precio": 219900,
+    "imagen": "/img/juego-06.svg",
+    "descripcion": "Aventura de acción basada en la mitología nórdica."
+  },
+  {
+    "id": 7,
+    "nombre": "Control inalámbrico DualSense",
+    "categoria": "accesorio",
+    "plataforma": "PlayStation 5",
+    "precio": 289900,
+    "imagen": "/img/accesorio-01.svg",
+    "descripcion": "Control con retroalimentación háptica y gatillos adaptativos."
+  },
+  {
+    "id": 8,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "plataforma": "Xbox Series X|S",
+    "precio": 279900,
+    "imagen": "/img/accesorio-02.svg",
+    "descripcion": "Control ergonómico con conexión Bluetooth."
+  },
+  {
+    "id": 9,
+    "nombre": "Audífonos gamer con micrófono",
+    "categoria": "accesorio",
+    "plataforma": "Multiplataforma",
+    "precio": 159900,
+    "imagen": "/img/accesorio-03.svg",
+    "descripcion": "Sonido envolvente y micrófono con cancelación de ruido."
+  },
+  {
+    "id": 10,
+    "nombre": "Teclado mecánico",
+    "categoria": "accesorio",
+    "plataforma": "PC",
+    "precio": 219900,
+    "imagen": "/img/accesorio-04.svg",
+    "descripcion": "Teclado con switches mecánicos e iluminación RGB."
+  },
+  {
+    "id": 11,
+    "nombre": "Mouse gamer RGB",
+    "categoria": "accesorio",
+    "plataforma": "PC",
+    "precio": 129900,
+    "imagen": "/img/accesorio-05.svg",
+    "descripcion": "Mouse con sensor de alta precisión y DPI ajustable."
+  },
+  {
+    "id": 12,
+    "nombre": "Funda protectora para Nintendo Switch",
+    "categoria": "accesorio",
+    "plataforma": "Nintendo Switch",
+    "precio": 49900,
+    "imagen": "/img/accesorio-06.svg",
+    "descripcion": "Funda rígida para transportar la consola."
+  }
+]

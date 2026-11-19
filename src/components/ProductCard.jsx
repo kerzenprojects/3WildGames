@@ -1,0 +1,26 @@
+import './ProductCard.css';
+
+const formatoCOP = new Intl.NumberFormat('es-CO', {
+  style: 'currency',
+  currency: 'COP',
+  maximumFractionDigits: 0,
+});
+
+function ProductCard({ product }) {
+  return (
+    <article className="product-card">
+      <img
+        className="product-card__image"
+        src={product.image}
+        alt={`${product.nombre} para ${product.plataforma}`}
+      />
+      <div className="product-card__body">
+        <h3 className="product-card__name">{product.nombre}</h3>
+        <p className="product-card__platform">{product.plataforma}</p>
+        <p className="product-card__price">{formatoCOP.format(product.precio)}</p>
+      </div>
+    </article>
+  );
+}
+
+export default ProductCard;

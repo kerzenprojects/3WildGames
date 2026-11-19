@@ -1,0 +1,34 @@
+.product-card {
+  width: 240px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  color: #222;
+}
+
+.product-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-card__body {
+  padding: 12px;
+}
+
+.product-card__name {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.product-card__platform {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.product-card__price {
+  margin: 0;
+  font-weight: bold;
+}

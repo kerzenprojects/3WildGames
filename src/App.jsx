@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './components/ProductCard';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -30,14 +32,17 @@ function App() {
   if (error) return <p role="alert">Error: {error}</p>;
 
   return (
-    <>
-      <h1>Hola tienda</h1>
-      <div className="product-grid">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
-    </>
+    <div className="app">
+      <Header />
+      <main className="app__main">
+        <div className="product-grid">
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      </main>
+      <Footer />
+    </div>
   );
 }
 

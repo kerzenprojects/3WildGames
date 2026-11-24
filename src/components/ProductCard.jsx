@@ -7,15 +7,15 @@ const formatoCOP = new Intl.NumberFormat('es-CO', {
 });
 
 const BADGE_CLASS = {
-  Juego: 'badge badge--juego',
-  Accesorio: 'badge badge--accesorio',
+  juego: 'badge badge--juego',
+  accesorio: 'badge badge--accesorio',
 };
 
 function ProductCard({ product }) {
   return (
     <div className="product-card">
-      <span className={BADGE_CLASS[producto.categoria]}>{producto.categoria}</span>
       <article className="product-card">
+        <span className={BADGE_CLASS[product.categoria]}>{product.categoria}</span>
         <img
           className="product-card__image"
           src={product.image}

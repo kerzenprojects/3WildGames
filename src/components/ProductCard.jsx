@@ -18,7 +18,7 @@ function ProductCard({ product }) {
         <span className={BADGE_CLASS[product.categoria]}>{product.categoria}</span>
         <img
           className="product-card__image"
-          src={product.image}
+          src={product.imagen}
           alt={`${product.nombre} para ${product.plataforma}`}
         />
         <div className="product-card__body">

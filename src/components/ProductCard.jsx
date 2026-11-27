@@ -13,21 +13,19 @@ const BADGE_CLASS = {
 
 function ProductCard({ product }) {
   return (
-    <div className="product-card">
-      <article className="product-card">
-        <span className={BADGE_CLASS[product.categoria]}>{product.categoria}</span>
-        <img
-          className="product-card__image"
-          src={product.imagen}
-          alt={`${product.nombre} para ${product.plataforma}`}
-        />
-        <div className="product-card__body">
-          <h3 className="product-card__name">{product.nombre}</h3>
-          <p className="product-card__platform">{product.plataforma}</p>
-          <p className="product-card__price">{formatoCOP.format(product.precio)}</p>
-        </div>
-      </article>
-    </div>
+    <article className="product-card">
+      <span className={BADGE_CLASS[product.categoria]}>{product.categoria}</span>
+      <img
+        className="product-card__image"
+        src={product.imagen}
+        alt={`${product.nombre} para ${product.plataforma}`}
+      />
+      <div className="product-card__body">
+        <h3 className="product-card__name">{product.nombre}</h3>
+        <p className="product-card__platform">{product.plataforma}</p>
+        <p className="product-card__price">{formatoCOP.format(product.precio)}</p>
+      </div>
+    </article>
   );
 }
 
